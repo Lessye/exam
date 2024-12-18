@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Adventures</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Unbounded:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="index.html" class="logo">Trail Adventures</a>
+        </div>
+        <button id="burger-menu" aria-label="Toggle Navigation">☰</button>
+        <nav id="nav-links">
+            <a href="places.html">Places</a>
+            <a href="safety.html">Safety</a>
+            <a href="#">EN / SK</a>
+        </nav>
+        <nav id="burger-dropdown" class="hidden">
+            <a href="places.html">Places</a>
+            <a href="safety.html">Safety</a>
+            <a href="#">EN / SK</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Trail Adventures</h1>
+        <p>Discover hidden places around Hermanovce nad Toplou</p>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section class="card-container">
+            <h2 class="visually-hidden">Trail Options</h2>
+            <!-- Card 1 -->
+            <article class="card">
+                <img src="images/sokolkaphoto1.jpg" alt="Trail 1">
+                <div class="card-content">
+                    <h3>A challenging mountain trail offering breathtaking views of the surrounding valleys and forests.</h3>
+                    <p class="difficulty">⚠️ Difficult</p>
+                    <button onclick="location.href='sokolka.html';">Explore</button>
+                </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="card">
+                <img src="images/hruskaphoto1.jpg" alt="Trail 2">
+                <div class="card-content">
+                    <h3>A peaceful forest trail perfect for nature lovers and bird watching enthusiasts.</h3>
+                    <p class="difficulty">⚖️ Moderate</p>
+                    <button onclick="location.href='hruska.html';">Explore</button>
+                </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="card">
+                <img src="images/birotkaphoto1.jpg" alt="Trail 3">
+                <div class="card-content">
+                    <h3>A moderate hiking trail through beautiful meadows with rich flora and fauna.</h3>
+                    <p class="difficulty">✅ Easy</p>
+                    <button onclick="location.href='birotka.html';">Explore</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="sokolka.html">Sokolka</a>
+            <a href="hruska.html">Hruška</a>
+            <a href="birotka.html">Birotka</a>
+            <a href="safety.html">Safety</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
